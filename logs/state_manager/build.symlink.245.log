@@ -1,0 +1,4 @@
+Symlinking /home/reustudents/DroneQuest/devel/share/state_manager/cmake/state_managerConfig.cmake
+Symlinking /home/reustudents/DroneQuest/devel/share/state_manager/cmake/state_managerConfig-version.cmake
+Symlinking /home/reustudents/DroneQuest/devel/lib/pkgconfig/state_manager.pc
+Symlinking /home/reustudents/DroneQuest/devel/lib/state_manager/state_manager_node

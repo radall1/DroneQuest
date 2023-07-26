@@ -1,0 +1,10 @@
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘void imageProcessedCallback(const ConstPtr&)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:43:22: error: expected ‘;’ before ‘}’ token
+   43 |     command="Forward"
+      |                      ^
+      |                      ;
+   44 |   }
+      |   ~                   
+make[2]: *** [CMakeFiles/temporal_provider_node.dir/build.make:76: CMakeFiles/temporal_provider_node.dir/src/temporal_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/temporal_provider_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

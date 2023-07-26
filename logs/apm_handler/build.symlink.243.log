@@ -1,0 +1,4 @@
+Symlinking /home/reustudents/DroneQuest/devel/share/apm_handler/cmake/apm_handlerConfig.cmake
+Symlinking /home/reustudents/DroneQuest/devel/share/apm_handler/cmake/apm_handlerConfig-version.cmake
+Symlinking /home/reustudents/DroneQuest/devel/lib/pkgconfig/apm_handler.pc
+Symlinking /home/reustudents/DroneQuest/devel/lib/apm_handler/apm_handler_node

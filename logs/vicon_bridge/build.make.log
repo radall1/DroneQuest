@@ -1,0 +1,28 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  1%] Built target vicon_bridge_gencfg
+[35m[1mConsolidate compiler generated dependencies of target vicon_sdk[0m
+[  1%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+[  1%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+[  1%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+[  1%] Built target _vicon_bridge_generate_messages_check_deps_Markers
+[  1%] Built target _vicon_bridge_generate_messages_check_deps_Marker
+[ 14%] Built target vicon_bridge_generate_messages_eus
+[ 24%] Built target vicon_bridge_generate_messages_cpp
+[ 33%] Built target vicon_bridge_generate_messages_py
+[ 42%] Built target vicon_bridge_generate_messages_nodejs
+[ 50%] Built target vicon_bridge_generate_messages_lisp
+[ 50%] Built target vicon_bridge_gencpp
+[ 50%] Built target vicon_bridge_generate_messages
+[35m[1mConsolidate compiler generated dependencies of target calibrate[0m
+[35m[1mConsolidate compiler generated dependencies of target tf_distort[0m
+[ 54%] Built target calibrate
+[ 57%] Built target tf_distort
+[ 92%] Built target vicon_sdk
+[35m[1mConsolidate compiler generated dependencies of target testclient[0m
+[35m[1mConsolidate compiler generated dependencies of target vicon_bridge[0m
+[ 96%] Built target testclient
+[100%] Built target vicon_bridge

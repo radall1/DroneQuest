@@ -1,0 +1,11 @@
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘void imageProcessedCallback(const ConstPtr&)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:43:5: error: ‘command’ was not declared in this scope
+   43 |     command = "Forward";
+      |     ^~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘int main(int, char**)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:158:5: error: ‘else’ without a previous ‘if’
+  158 |     else if( /* traj_type == "circle2"*/ command == "Forward" )
+      |     ^~~~
+make[2]: *** [CMakeFiles/temporal_provider_node.dir/build.make:76: CMakeFiles/temporal_provider_node.dir/src/temporal_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/temporal_provider_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

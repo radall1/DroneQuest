@@ -1,0 +1,28 @@
+[  0%] Built target freyja_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target freyja_msgs_generate_messages_cpp
+[  0%] Built target freyja_msgs_generate_messages_nodejs
+[  0%] Built target freyja_msgs_generate_messages_lisp
+[  0%] Built target freyja_msgs_generate_messages_eus
+[ 40%] [32mBuilding CXX object CMakeFiles/lqg_control_node.dir/src/lqr_control_bias.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/lqr_vel_ctrl_node.dir/src/lqr_vel_control.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/lqg_control_node.dir/src/bias_estimator.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/reustudents/DroneQuest/devel/.private/lqg_control/lib/lqg_control/lqr_vel_ctrl_node[0m
+[100%] [32m[1mLinking CXX executable /home/reustudents/DroneQuest/devel/.private/lqg_control/lib/lqg_control/lqg_control_node[0m
+[100%] Built target lqr_vel_ctrl_node
+[100%] Built target lqg_control_node

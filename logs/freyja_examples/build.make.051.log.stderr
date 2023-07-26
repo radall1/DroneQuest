@@ -1,0 +1,19 @@
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘void gestureUpdate(const ConstPtr&)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:102:5: error: ‘drone’ was not declared in this scope
+  102 |     drone.forward();
+      |     ^~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:104:5: error: ‘drone’ was not declared in this scope
+  104 |     drone.right();
+      |     ^~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:106:5: error: ‘drone’ was not declared in this scope
+  106 |     drone.left();
+      |     ^~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:108:5: error: ‘drone’ was not declared in this scope
+  108 |     drone.backward();
+      |     ^~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:110:5: error: ‘drone’ was not declared in this scope
+  110 |     drone.up();
+      |     ^~~~~
+make[2]: *** [CMakeFiles/temporal_provider_node.dir/build.make:76: CMakeFiles/temporal_provider_node.dir/src/temporal_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/temporal_provider_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

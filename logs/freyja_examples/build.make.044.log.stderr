@@ -1,0 +1,27 @@
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘void gestureUpdate(const ConstPtr&)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:100:5: error: ‘drone’ was not declared in this scope
+  100 |     drone.forward();
+      |     ^~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:101:5: error: ‘elif’ was not declared in this scope
+  101 |   } elif (msg -> data == "Turn Right"){
+      |     ^~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘int main(int, char**)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:120:14: error: ‘nh’ was not declared in this scope
+  120 |   traj_pub = nh.advertise <TrajRef> ( "/reference_state", 1, true );
+      |              ^~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:120:35: error: expected primary-expression before ‘>’ token
+  120 |   traj_pub = nh.advertise <TrajRef> ( "/reference_state", 1, true );
+      |                                   ^
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:131:3: error: ‘priv_nh’ was not declared in this scope
+  131 |   priv_nh.param( "example_traj_type", traj_type, std::string("hover") );
+      |   ^~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:139:5: error: ‘ref_state’ was not declared in this scope; did you mean ‘setstate’?
+  139 |     ref_state = drone.return_state();
+      |     ^~~~~~~~~
+      |     setstate
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:139:23: error: request for member ‘return_state’ in ‘drone’, which is of non-class type ‘DroneType()’
+  139 |     ref_state = drone.return_state();
+      |                       ^~~~~~~~~~~~
+make[2]: *** [CMakeFiles/temporal_provider_node.dir/build.make:76: CMakeFiles/temporal_provider_node.dir/src/temporal_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/temporal_provider_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

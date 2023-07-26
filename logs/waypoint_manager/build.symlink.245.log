@@ -1,0 +1,4 @@
+Symlinking /home/reustudents/DroneQuest/devel/share/waypoint_manager/cmake/waypoint_managerConfig-version.cmake
+Symlinking /home/reustudents/DroneQuest/devel/share/waypoint_manager/cmake/waypoint_managerConfig.cmake
+Symlinking /home/reustudents/DroneQuest/devel/lib/pkgconfig/waypoint_manager.pc
+Symlinking /home/reustudents/DroneQuest/devel/lib/waypoint_manager/waypoint_manager_node

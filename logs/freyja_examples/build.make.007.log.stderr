@@ -1,0 +1,20 @@
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:38:46: error: ‘String’ in namespace ‘std_msgs’ does not name a type
+   38 | void imageProcessedCallback( const std_msgs::String::ConstPtr& msg )
+      |                                              ^~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:38:62: error: expected unqualified-id before ‘&’ token
+   38 | void imageProcessedCallback( const std_msgs::String::ConstPtr& msg )
+      |                                                              ^
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:38:62: error: expected ‘)’ before ‘&’ token
+   38 | void imageProcessedCallback( const std_msgs::String::ConstPtr& msg )
+      |                            ~                                 ^
+      |                                                              )
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:38:64: error: expected initializer before ‘msg’
+   38 | void imageProcessedCallback( const std_msgs::String::ConstPtr& msg )
+      |                                                                ^~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘int main(int, char**)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:139:60: error: ‘imageProcessedCallback’ was not declared in this scope
+  139 |   processed_image = nh.subscribe( "/gesture/hand_sign", 1, imageProcessedCallback );
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/temporal_provider_node.dir/build.make:76: CMakeFiles/temporal_provider_node.dir/src/temporal_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/temporal_provider_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,83 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _vicon_bridge_generate_messages_check_deps_viconGrabPose
+[  0%] Built target _vicon_bridge_generate_messages_check_deps_Marker
+[  0%] Built target _vicon_bridge_generate_messages_check_deps_Markers
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _vicon_bridge_generate_messages_check_deps_viconCalibrateSegment
+[  1%] [34m[1mGenerating dynamic reconfigure files from cfg/tf_distort.cfg: /home/reustudents/DroneQuest/devel/.private/vicon_bridge/include/vicon_bridge/tf_distortConfig.h /home/reustudents/DroneQuest/devel/.private/vicon_bridge/lib/python3/dist-packages/vicon_bridge/cfg/tf_distortConfig.py[0m
+[  3%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconCGStream/Dummy.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp.o[0m
+[  7%] Built target _vicon_bridge_generate_messages_check_deps_TfDistortInfo
+[  7%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp.o[0m
+[ 12%] [34m[1mGenerating EusLisp code from vicon_bridge/Marker.msg[0m
+[ 12%] [34m[1mGenerating C++ code from vicon_bridge/Marker.msg[0m
+[ 14%] [34m[1mGenerating Lisp code from vicon_bridge/Marker.msg[0m
+[ 15%] [34m[1mGenerating Python from MSG vicon_bridge/Marker[0m
+[ 17%] [34m[1mGenerating Lisp code from vicon_bridge/Markers.msg[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconCGStreamClientSDK/CGClient.cpp.o[0m
+[ 21%] [34m[1mGenerating Lisp code from vicon_bridge/TfDistortInfo.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from vicon_bridge/viconCalibrateSegment.srv[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCore/CoreClient.cpp.o[0m
+[ 26%] [34m[1mGenerating EusLisp code from vicon_bridge/Markers.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from vicon_bridge/viconGrabPose.srv[0m
+[ 29%] [34m[1mGenerating C++ code from vicon_bridge/Markers.msg[0m
+[ 31%] [34m[1mGenerating C++ code from vicon_bridge/TfDistortInfo.msg[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp.o[0m
+[ 35%] [34m[1mGenerating EusLisp code from vicon_bridge/TfDistortInfo.msg[0m
+[ 35%] Built target vicon_bridge_generate_messages_lisp
+[ 36%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCore/RetimerUtils.cpp.o[0m
+[ 38%] [34m[1mGenerating C++ code from vicon_bridge/viconCalibrateSegment.srv[0m
+[ 40%] [34m[1mGenerating EusLisp code from vicon_bridge/viconCalibrateSegment.srv[0m
+[ 43%] [34m[1mGenerating Python from MSG vicon_bridge/Markers[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCore/RetimingClient.cpp.o[0m
+[ 45%] [34m[1mGenerating EusLisp code from vicon_bridge/viconGrabPose.srv[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCore/RetimingCore.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCore/SegmentPoseReader.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp.o[0m
+[ 52%] [34m[1mGenerating Python from MSG vicon_bridge/TfDistortInfo[0m
+[ 54%] [34m[1mGenerating Python code from SRV vicon_bridge/viconCalibrateSegment[0m
+[ 56%] [34m[1mGenerating Javascript code from vicon_bridge/Marker.msg[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp.o[0m
+[ 59%] [34m[1mGenerating Javascript code from vicon_bridge/Markers.msg[0m
+[ 63%] [34m[1mGenerating Python code from SRV vicon_bridge/viconGrabPose[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp.o[0m
+[ 64%] [34m[1mGenerating Javascript code from vicon_bridge/TfDistortInfo.msg[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDK_C/CClient.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDK_C/CRetimingClient.cpp.o[0m
+[ 70%] [34m[1mGenerating EusLisp manifest code for vicon_bridge[0m
+[ 71%] [34m[1mGenerating C++ code from vicon_bridge/viconGrabPose.srv[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp.o[0m
+[ 75%] [34m[1mGenerating Javascript code from vicon_bridge/viconCalibrateSegment.srv[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/DataStream/ViconDataStreamSDK_CPP/DataStreamRetimingClient.cpp.o[0m
+[ 78%] [34m[1mGenerating Javascript code from vicon_bridge/viconGrabPose.srv[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/vicon_sdk.dir/vicon_sdk/StreamCommon/CGStreamAsyncReaderWriter.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library /home/reustudents/DroneQuest/devel/.private/vicon_bridge/lib/libvicon_sdk.so[0m
+[ 82%] Built target vicon_bridge_generate_messages_nodejs
+[ 84%] [34m[1mGenerating Python msg __init__.py for vicon_bridge[0m
+the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+Generating reconfiguration files for tf_distort in vicon_bridge
+Wrote header file in /home/reustudents/DroneQuest/devel/.private/vicon_bridge/include/vicon_bridge/tf_distortConfig.h
+[ 85%] [34m[1mGenerating Python srv __init__.py for vicon_bridge[0m
+[ 85%] Built target vicon_bridge_generate_messages_cpp
+[ 85%] Built target vicon_bridge_gencfg
+[ 85%] Built target vicon_bridge_gencpp
+[ 87%] [32mBuilding CXX object CMakeFiles/calibrate.dir/src/calibrate_segment.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable /home/reustudents/DroneQuest/devel/.private/vicon_bridge/lib/vicon_bridge/calibrate[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o[0m
+[ 91%] Built target vicon_bridge_generate_messages_py
+[ 92%] [32m[1mLinking CXX executable /home/reustudents/DroneQuest/devel/.private/vicon_bridge/lib/vicon_bridge/tf_distort[0m
+[ 92%] Built target calibrate
+[ 92%] Built target vicon_bridge_generate_messages_eus
+[ 92%] Built target vicon_bridge_generate_messages
+[ 92%] Built target tf_distort
+[ 92%] Built target vicon_sdk
+[ 94%] [32mBuilding CXX object CMakeFiles/vicon_bridge.dir/src/vicon_bridge.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o[0m
+[ 98%] [32m[1mLinking CXX executable /home/reustudents/DroneQuest/devel/.private/vicon_bridge/lib/vicon_bridge/testclient[0m
+[100%] [32m[1mLinking CXX executable /home/reustudents/DroneQuest/devel/.private/vicon_bridge/lib/vicon_bridge/vicon_bridge[0m
+[100%] Built target testclient
+[100%] Built target vicon_bridge

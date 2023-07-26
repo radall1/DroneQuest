@@ -1,0 +1,41 @@
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:25:1: error: ‘DroneType’ does not name a type
+   25 | DroneType drone();
+      | ^~~~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘void gestureUpdate(const ConstPtr&)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:39:5: error: ‘drone’ was not declared in this scope
+   39 |     drone.forward();
+      |     ^~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:40:5: error: ‘elif’ was not declared in this scope
+   40 |   } elif (msg -> data == "Turn Right"){
+      |     ^~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: At global scope:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:59:13: error: ISO C++ forbids declaration of ‘Drone’ with no type [-fpermissive]
+   59 |       Drone(){
+      |             ^
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In member function ‘int DroneType::Drone()’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:71:7: warning: no return statement in function returning non-void [-Wreturn-type]
+   71 |       }
+      |       ^
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In member function ‘void DroneType::takeOff()’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:110:11: error: ‘traj_pub’ was not declared in this scope
+  110 |           traj_pub.publish(ref_state);
+      |           ^~~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:113:11: error: ‘update_rate’ was not declared in this scope
+  113 |           update_rate.sleep();
+      |           ^~~~~~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘int main(int, char**)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:127:14: error: ‘nh’ was not declared in this scope
+  127 |   traj_pub = nh.advertise <TrajRef> ( "/reference_state", 1, true );
+      |              ^~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:127:35: error: expected primary-expression before ‘>’ token
+  127 |   traj_pub = nh.advertise <TrajRef> ( "/reference_state", 1, true );
+      |                                   ^
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:138:3: error: ‘priv_nh’ was not declared in this scope
+  138 |   priv_nh.param( "example_traj_type", traj_type, std::string("hover") );
+      |   ^~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:145:3: error: ‘drone’ was not declared in this scope
+  145 |   drone.takeOff();
+      |   ^~~~~
+make[2]: *** [CMakeFiles/temporal_provider_node.dir/build.make:76: CMakeFiles/temporal_provider_node.dir/src/temporal_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/temporal_provider_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

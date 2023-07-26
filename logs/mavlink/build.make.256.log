@@ -1,0 +1,1819 @@
+[ 13%] [34m[1mGenerating include/v1.0/ardupilotmega/ardupilotmega.h[0m
+[ 13%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
+[ 13%] [34m[1mGenerating include/v1.0/all/all.h[0m
+[ 13%] [34m[1mGenerating include/v1.0/AVSSUAS/AVSSUAS.h[0m
+[ 16%] [34m[1mGenerating include/v1.0/common/common.h[0m
+[ 20%] [34m[1mGenerating include/v1.0/cubepilot/cubepilot.h[0m
+[ 23%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
+[ 26%] [34m[1mGenerating include/v1.0/development/development.h[0m
+[ 30%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
+[ 33%] [34m[1mGenerating include/v1.0/csAirLink/csAirLink.h[0m
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Ignoring MAVLink2 message AVSS_PRS_SYS_STATUS
+Ignoring MAVLink2 message AVSS_DRONE_POSITION
+Ignoring MAVLink2 message AVSS_DRONE_IMU
+Ignoring MAVLink2 message AVSS_DRONE_OPERATION_MODE
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Ignoring MAVLink2 message SENS_POWER
+Ignoring MAVLink2 message SENS_MPPT
+Ignoring MAVLink2 message ASLCTRL_DATA
+Ignoring MAVLink2 message ASLCTRL_DEBUG
+Ignoring MAVLink2 message ASLUAV_STATUS
+Ignoring MAVLink2 message EKF_EXT
+Ignoring MAVLink2 message ASL_OBCTRL
+Ignoring MAVLink2 message SENS_ATMOS
+Ignoring MAVLink2 message SENS_BATMON
+Ignoring MAVLink2 message FW_SOARING_DATA
+Ignoring MAVLink2 message SENSORPOD_STATUS
+Ignoring MAVLink2 message SENS_POWER_BOARD
+Ignoring MAVLink2 message GSM_LINK_STATUS
+Ignoring MAVLink2 message SATCOM_LINK_STATUS
+Ignoring MAVLink2 message SENSOR_AIRFLOW_ANGLES
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Ignoring MAVLink2 message CUBEPILOT_RAW_RC
+Ignoring MAVLink2 message HERELINK_VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message HERELINK_TELEM
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_START
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_RESP
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Found 0 MAVLink message types in 1 XML files
+Ignoring MAVLink2 message DEVICE_OP_READ
+Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
+Ignoring MAVLink2 message DEVICE_OP_WRITE
+Ignoring MAVLink2 message DEVICE_OP_WRITE_REPLY
+Ignoring MAVLink2 message ADAP_TUNING
+Ignoring MAVLink2 message VISION_POSITION_DELTA
+Ignoring MAVLink2 message AOA_SSA
+Ignoring MAVLink2 message ESC_TELEMETRY_1_TO_4
+Ignoring MAVLink2 message ESC_TELEMETRY_5_TO_8
+Ignoring MAVLink2 message ESC_TELEMETRY_9_TO_12
+Ignoring MAVLink2 message OSD_PARAM_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
+Ignoring MAVLink2 message OBSTACLE_DISTANCE_3D
+Ignoring MAVLink2 message WATER_DEPTH
+Ignoring MAVLink2 message MCU_STATUS
+Ignoring MAVLink2 message DEVICE_OP_READ
+Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
+Ignoring MAVLink2 message DEVICE_OP_WRITE
+Ignoring MAVLink2 message DEVICE_OP_WRITE_REPLY
+Ignoring MAVLink2 message ADAP_TUNING
+Ignoring MAVLink2 message VISION_POSITION_DELTA
+Ignoring MAVLink2 message AOA_SSA
+Ignoring MAVLink2 message ESC_TELEMETRY_1_TO_4
+Ignoring MAVLink2 message ESC_TELEMETRY_5_TO_8
+Ignoring MAVLink2 message ESC_TELEMETRY_9_TO_12
+Ignoring MAVLink2 message OSD_PARAM_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
+Ignoring MAVLink2 message OBSTACLE_DISTANCE_3D
+Ignoring MAVLink2 message WATER_DEPTH
+Ignoring MAVLink2 message MCU_STATUS
+Generating C implementation in directory include/v1.0/icarous
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SENS_POWER
+Ignoring MAVLink2 message SENS_MPPT
+Ignoring MAVLink2 message ASLCTRL_DATA
+Ignoring MAVLink2 message ASLCTRL_DEBUG
+Ignoring MAVLink2 message ASLUAV_STATUS
+Ignoring MAVLink2 message EKF_EXT
+Ignoring MAVLink2 message ASL_OBCTRL
+Ignoring MAVLink2 message SENS_ATMOS
+Ignoring MAVLink2 message SENS_BATMON
+Ignoring MAVLink2 message FW_SOARING_DATA
+Ignoring MAVLink2 message SENSORPOD_STATUS
+Ignoring MAVLink2 message SENS_POWER_BOARD
+Ignoring MAVLink2 message GSM_LINK_STATUS
+Ignoring MAVLink2 message SATCOM_LINK_STATUS
+Ignoring MAVLink2 message SENSOR_AIRFLOW_ANGLES
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+[ 33%] Built target icarous.xml-v1.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message AIRSPEED
+Ignoring MAVLink2 message WIFI_NETWORK_INFO
+Ignoring MAVLink2 message FIGURE_EIGHT_EXECUTION_STATUS
+Ignoring MAVLink2 message BATTERY_STATUS_V2
+Ignoring MAVLink2 message COMPONENT_INFORMATION_BASIC
+Ignoring MAVLink2 message GROUP_START
+Ignoring MAVLink2 message GROUP_END
+Ignoring MAVLink2 message AVAILABLE_MODES
+Ignoring MAVLink2 message CURRENT_MODE
+Ignoring MAVLink2 message TARGET_ABSOLUTE
+Ignoring MAVLink2 message TARGET_RELATIVE
+[ 36%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message AIRLINK_AUTH
+Ignoring MAVLink2 message AIRLINK_AUTH_RESPONSE
+Found 0 MAVLink message types in 1 XML files
+Generating C implementation in directory include/v1.0/csAirLink
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+[ 36%] Built target csAirLink.xml-v1.0
+[ 40%] [34m[1mGenerating include/v1.0/standard/standard.h[0m
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Found 142 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/cubepilot
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Found 144 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/ASLUAV
+Found 142 MAVLink message types in 3 XML files
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/common
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Merged enum MAV_CMD
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Found 142 MAVLink message types in 4 XML files
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Generating C implementation in directory include/v1.0/AVSSUAS
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Ignoring MAVLink2 message CUBEPILOT_RAW_RC
+Ignoring MAVLink2 message HERELINK_VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message HERELINK_TELEM
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_START
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_RESP
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Ignoring MAVLink2 message AIRLINK_AUTH
+Ignoring MAVLink2 message AIRLINK_AUTH_RESPONSE
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Ignoring MAVLink2 message AIRSPEED
+Ignoring MAVLink2 message WIFI_NETWORK_INFO
+Ignoring MAVLink2 message FIGURE_EIGHT_EXECUTION_STATUS
+Ignoring MAVLink2 message BATTERY_STATUS_V2
+Ignoring MAVLink2 message COMPONENT_INFORMATION_BASIC
+Ignoring MAVLink2 message GROUP_START
+Ignoring MAVLink2 message GROUP_END
+Ignoring MAVLink2 message AVAILABLE_MODES
+Ignoring MAVLink2 message CURRENT_MODE
+Ignoring MAVLink2 message TARGET_ABSOLUTE
+Ignoring MAVLink2 message TARGET_RELATIVE
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 1 MAVLink message types in 2 XML files
+Generating C implementation in directory include/v1.0/standard
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 190 MAVLink message types in 8 XML files
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/ardupilotmega
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Ignoring MAVLink2 message ARRAY_TEST_0
+Ignoring MAVLink2 message ARRAY_TEST_1
+Ignoring MAVLink2 message ARRAY_TEST_3
+Ignoring MAVLink2 message ARRAY_TEST_4
+Ignoring MAVLink2 message ARRAY_TEST_5
+Ignoring MAVLink2 message ARRAY_TEST_6
+Ignoring MAVLink2 message ARRAY_TEST_7
+Ignoring MAVLink2 message ARRAY_TEST_8
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/test.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/test.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message TEST_TYPES
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Generating C implementation in directory include/v1.0/minimal
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 169 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/matrixpilot
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_CONTROL
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_CONTROL_PITCHYAW
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_CORRECT_ROLL
+Ignoring MAVLink2 message QSHOT_STATUS
+Ignoring MAVLink2 message RADIO_RC_CHANNELS
+Ignoring MAVLink2 message RADIO_LINK_STATS
+Ignoring MAVLink2 message FRSKY_PASSTHROUGH_ARRAY
+Ignoring MAVLink2 message PARAM_VALUE_ARRAY
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Found 144 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/development
+Ignoring MAVLink2 message AVSS_PRS_SYS_STATUS
+Ignoring MAVLink2 message AVSS_DRONE_POSITION
+Ignoring MAVLink2 message AVSS_DRONE_IMU
+Ignoring MAVLink2 message AVSS_DRONE_OPERATION_MODE
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Ignoring MAVLink2 message CUBEPILOT_RAW_RC
+Ignoring MAVLink2 message HERELINK_VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message HERELINK_TELEM
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_START
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_RESP
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Ignoring MAVLink2 message AIRLINK_AUTH
+Ignoring MAVLink2 message AIRLINK_AUTH_RESPONSE
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 197 MAVLink message types in 16 XML files
+Generating C implementation in directory include/v1.0/all
+Generating C implementation in directory include/v1.0/ardupilotmega
+Generating C implementation in directory include/v1.0/common
+[ 40%] Built target standard.xml-v1.0
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 43%] [34m[1mGenerating include/v1.0/storm32/storm32.h[0m
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Found 147 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/paparazzi
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/common
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Generating C implementation in directory include/v1.0/ASLUAV
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Generating C implementation in directory include/v1.0/common
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_CONTROL
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_CONTROL_PITCHYAW
+Ignoring MAVLink2 message STORM32_GIMBAL_MANAGER_CORRECT_ROLL
+Ignoring MAVLink2 message QSHOT_STATUS
+Ignoring MAVLink2 message RADIO_RC_CHANNELS
+Ignoring MAVLink2 message RADIO_LINK_STATS
+Ignoring MAVLink2 message FRSKY_PASSTHROUGH_ARRAY
+Ignoring MAVLink2 message PARAM_VALUE_ARRAY
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Ignoring MAVLink2 message DEVICE_OP_READ
+Ignoring MAVLink2 message DEVICE_OP_READ_REPLY
+Ignoring MAVLink2 message DEVICE_OP_WRITE
+Ignoring MAVLink2 message DEVICE_OP_WRITE_REPLY
+Ignoring MAVLink2 message ADAP_TUNING
+Ignoring MAVLink2 message VISION_POSITION_DELTA
+Ignoring MAVLink2 message AOA_SSA
+Ignoring MAVLink2 message ESC_TELEMETRY_1_TO_4
+Ignoring MAVLink2 message ESC_TELEMETRY_5_TO_8
+Ignoring MAVLink2 message ESC_TELEMETRY_9_TO_12
+Ignoring MAVLink2 message OSD_PARAM_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_CONFIG_REPLY
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG
+Ignoring MAVLink2 message OSD_PARAM_SHOW_CONFIG_REPLY
+Ignoring MAVLink2 message OBSTACLE_DISTANCE_3D
+Ignoring MAVLink2 message WATER_DEPTH
+Ignoring MAVLink2 message MCU_STATUS
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Ignoring MAVLink2 message ICAROUS_HEARTBEAT
+Ignoring MAVLink2 message ICAROUS_KINEMATIC_BANDS
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Ignoring MAVLink2 message CUBEPILOT_RAW_RC
+Ignoring MAVLink2 message HERELINK_VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message HERELINK_TELEM
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_START
+Ignoring MAVLink2 message CUBEPILOT_FIRMWARE_UPDATE_RESP
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Ignoring MAVLink2 message AIRLINK_AUTH
+Ignoring MAVLink2 message AIRLINK_AUTH_RESPONSE
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 190 MAVLink message types in 9 XML files
+Generating C implementation in directory include/v1.0/storm32
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+[ 43%] Built target cubepilot.xml-v1.0
+[ 46%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
+Generating C implementation in directory include/v1.0/ardupilotmega
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 50%] [34m[1mGenerating include/v1.0/ualberta/ualberta.h[0m
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+[ 50%] Built target common.xml-v1.0
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 50%] Built target ASLUAV.xml-v1.0
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 53%] [34m[1mGenerating AVSSUAS-v2.0-cxx-stamp[0m
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_CFG
+Ignoring MAVLink2 message UAVIONIX_ADSB_OUT_DYNAMIC
+Ignoring MAVLink2 message UAVIONIX_ADSB_TRANSCEIVER_HEALTH_REPORT
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+[ 56%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 56%] Built target development.xml-v1.0
+[ 60%] [34m[1mGenerating all-v2.0-cxx-stamp[0m
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+[ 60%] Built target AVSSUAS.xml-v1.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+[ 63%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/uAvionix
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/icarous
+Generating C implementation in directory include/v1.0/cubepilot
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/csAirLink
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/standard
+Copying fixed headers for protocol 1.0 to include/v1.0
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+Copying fixed headers for protocol 1.0 to include/v1.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+[ 63%] Built target paparazzi.xml-v1.0
+[ 63%] Built target ardupilotmega.xml-v1.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/all.xml
+[ 66%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/development
+Ignoring MAVLink2 message SETUP_SIGNING
+Ignoring MAVLink2 message BUTTON_CHANGE
+Ignoring MAVLink2 message PLAY_TUNE
+Ignoring MAVLink2 message CAMERA_INFORMATION
+Ignoring MAVLink2 message CAMERA_SETTINGS
+Ignoring MAVLink2 message STORAGE_INFORMATION
+Ignoring MAVLink2 message CAMERA_CAPTURE_STATUS
+Ignoring MAVLink2 message CAMERA_IMAGE_CAPTURED
+Ignoring MAVLink2 message FLIGHT_INFORMATION
+Ignoring MAVLink2 message MOUNT_ORIENTATION
+Ignoring MAVLink2 message LOGGING_DATA
+Ignoring MAVLink2 message LOGGING_DATA_ACKED
+Ignoring MAVLink2 message LOGGING_ACK
+Ignoring MAVLink2 message VIDEO_STREAM_INFORMATION
+Ignoring MAVLink2 message VIDEO_STREAM_STATUS
+Ignoring MAVLink2 message CAMERA_FOV_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_IMAGE_STATUS
+Ignoring MAVLink2 message CAMERA_TRACKING_GEO_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_INFORMATION
+Ignoring MAVLink2 message GIMBAL_MANAGER_STATUS
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_INFORMATION
+Ignoring MAVLink2 message GIMBAL_DEVICE_SET_ATTITUDE
+Ignoring MAVLink2 message GIMBAL_DEVICE_ATTITUDE_STATUS
+Ignoring MAVLink2 message AUTOPILOT_STATE_FOR_GIMBAL_DEVICE
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_PITCHYAW
+Ignoring MAVLink2 message GIMBAL_MANAGER_SET_MANUAL_CONTROL
+Ignoring MAVLink2 message ESC_INFO
+Ignoring MAVLink2 message ESC_STATUS
+Ignoring MAVLink2 message WIFI_CONFIG_AP
+Ignoring MAVLink2 message AIS_VESSEL
+Ignoring MAVLink2 message UAVCAN_NODE_STATUS
+Ignoring MAVLink2 message UAVCAN_NODE_INFO
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_READ
+Ignoring MAVLink2 message PARAM_EXT_REQUEST_LIST
+Ignoring MAVLink2 message PARAM_EXT_VALUE
+Ignoring MAVLink2 message PARAM_EXT_SET
+Ignoring MAVLink2 message PARAM_EXT_ACK
+Ignoring MAVLink2 message OBSTACLE_DISTANCE
+Ignoring MAVLink2 message ODOMETRY
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_WAYPOINTS
+Ignoring MAVLink2 message TRAJECTORY_REPRESENTATION_BEZIER
+Ignoring MAVLink2 message CELLULAR_STATUS
+Ignoring MAVLink2 message ISBD_LINK_STATUS
+Ignoring MAVLink2 message CELLULAR_CONFIG
+Ignoring MAVLink2 message RAW_RPM
+Ignoring MAVLink2 message UTM_GLOBAL_POSITION
+Ignoring MAVLink2 message DEBUG_FLOAT_ARRAY
+Ignoring MAVLink2 message ORBIT_EXECUTION_STATUS
+Ignoring MAVLink2 message SMART_BATTERY_INFO
+Ignoring MAVLink2 message GENERATOR_STATUS
+Ignoring MAVLink2 message ACTUATOR_OUTPUT_STATUS
+Ignoring MAVLink2 message TIME_ESTIMATE_TO_TARGET
+Ignoring MAVLink2 message TUNNEL
+Ignoring MAVLink2 message CAN_FRAME
+Ignoring MAVLink2 message ONBOARD_COMPUTER_STATUS
+Ignoring MAVLink2 message COMPONENT_INFORMATION
+Ignoring MAVLink2 message COMPONENT_METADATA
+Ignoring MAVLink2 message PLAY_TUNE_V2
+Ignoring MAVLink2 message SUPPORTED_TUNES
+Ignoring MAVLink2 message EVENT
+Ignoring MAVLink2 message CURRENT_EVENT_SEQUENCE
+Ignoring MAVLink2 message REQUEST_EVENT
+Ignoring MAVLink2 message RESPONSE_EVENT_ERROR
+Ignoring MAVLink2 message CANFD_FRAME
+Ignoring MAVLink2 message CAN_FILTER_MODIFY
+Ignoring MAVLink2 message WHEEL_DISTANCE
+Ignoring MAVLink2 message WINCH_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_BASIC_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_LOCATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_AUTHENTICATION
+Ignoring MAVLink2 message OPEN_DRONE_ID_SELF_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM
+Ignoring MAVLink2 message OPEN_DRONE_ID_OPERATOR_ID
+Ignoring MAVLink2 message OPEN_DRONE_ID_MESSAGE_PACK
+Ignoring MAVLink2 message OPEN_DRONE_ID_ARM_STATUS
+Ignoring MAVLink2 message OPEN_DRONE_ID_SYSTEM_UPDATE
+Ignoring MAVLink2 message HYGROMETER_SENSOR
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Generating C implementation in directory include/v1.0/icarous
+Generating C implementation in directory include/v1.0/minimal
+[ 66%] Built target matrixpilot.xml-v1.0
+[ 73%] [34m[1mGenerating cubepilot-v2.0-cxx-stamp[0m
+[ 73%] [34m[1mGenerating csAirLink-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v1.0/python_array_test
+Found 142 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/test
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Generating C implementation in directory include/v1.0/ualberta
+Generating C implementation in directory include/v1.0/common
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Generating C implementation in directory include/v1.0/uAvionix
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/storm32
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v1.0/AVSSUAS
+Generating C implementation in directory include/v1.0/cubepilot
+Generating C implementation in directory include/v1.0/csAirLink
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Ignoring MAVLink2 message PROTOCOL_VERSION
+Found 145 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/ualberta
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/common
+[ 73%] Built target all.xml-v1.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+[ 76%] [34m[1mGenerating development-v2.0-cxx-stamp[0m
+[ 80%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+[ 83%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Found 2 MAVLink message types in 1 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/csAirLink
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/csAirLink
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 83%] Built target csAirLink.xml-v2.0
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Found 238 MAVLink message types in 4 XML files
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/ASLUAV
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Found 2 MAVLink message types in 1 XML files
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/icarous
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/icarous
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 86%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+Merged enum MAV_CMD
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/development.xml
+Found 225 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/AVSSUAS
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/test.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/test.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/common
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Generating C implementation in directory include/v2.0/common
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Merged enum MAV_CMD
+[ 86%] Built target icarous.xml-v2.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Found 298 MAVLink message types in 8 XML files
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Generating C headers
+Generating C implementation in directory include/v2.0/ardupilotmega
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 90%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
+Found 354 MAVLink message types in 16 XML files
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/all
+Generating C implementation in directory include/v2.0/ardupilotmega
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Found 224 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ualberta
+Generating C implementation in directory include/v2.0/common
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 226 MAVLink message types in 4 XML files
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/cubepilot
+Merged enum MAV_CMD
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v2.0/common
+Found 248 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/icarous
+Generating C headers
+Generating C implementation in directory include/v2.0/matrixpilot
+Generating C implementation in directory include/v1.0/cubepilot
+Generating C implementation in directory include/v1.0/csAirLink
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Found 234 MAVLink message types in 4 XML files
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/development
+Found 2 MAVLink message types in 2 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+[ 90%] Built target storm32.xml-v1.0
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/common
+[ 93%] [34m[1mGenerating storm32-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v2.0/common
+Found 226 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v2.0/ASLUAV
+[ 93%] Built target standard.xml-v2.0
+Generating C headers
+Generating C implementation in directory include/v2.0/paparazzi
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+[ 96%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 96%] Built target uAvionix.xml-v1.0
+Generating C implementation in directory include/v2.0/common
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/storm32.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[ 96%] Built target ualberta.xml-v1.0
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 308 MAVLink message types in 9 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/storm32
+Found 224 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/ardupilotmega
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/AVSSUAS
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/development
+Generating C++ implementation in directory include/v2.0/cubepilot
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/paparazzi
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/matrixpilot
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/development
+Generating C implementation in directory include/v2.0/uAvionix
+[ 96%] Built target AVSSUAS.xml-v2.0
+Generating C implementation in directory include/v2.0/icarous
+Generating C implementation in directory include/v2.0/cubepilot
+Generating C implementation in directory include/v2.0/icarous
+Generating C implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/csAirLink
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/python_array_test
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/test
+Generating C implementation in directory include/v2.0/ualberta
+[ 96%] Built target ASLUAV.xml-v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/uAvionix
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/storm32
+[ 96%] Built target paparazzi.xml-v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/AVSSUAS
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/cubepilot
+Generating C implementation in directory include/v2.0/csAirLink
+[ 96%] Built target development.xml-v2.0
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/all
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+[ 96%] Built target cubepilot.xml-v2.0
+[ 96%] Built target ualberta.xml-v2.0
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 96%] Built target matrixpilot.xml-v2.0
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/cubepilot
+Generating C++ implementation in directory include/v2.0/csAirLink
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+[ 96%] Built target ardupilotmega.xml-v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/development
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/python_array_test
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/test
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/storm32
+Generating C++ implementation in directory include/v2.0/AVSSUAS
+Generating C++ implementation in directory include/v2.0/cubepilot
+Generating C++ implementation in directory include/v2.0/csAirLink
+Generating C implementation in directory include/v2.0/uAvionix
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/icarous
+Generating C implementation in directory include/v2.0/cubepilot
+[ 96%] Built target all.xml-v2.0
+Generating C implementation in directory include/v2.0/csAirLink
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/storm32
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 96%] Built target uAvionix.xml-v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/cubepilot
+Generating C++ implementation in directory include/v2.0/csAirLink
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 96%] Built target storm32.xml-v2.0
+[100%] [34m[1mGenerating common-v2.0-cxx-stamp[0m
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/reustudents/DroneQuest/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 221 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[100%] Built target common.xml-v2.0

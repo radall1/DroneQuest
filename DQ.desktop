@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=DroneQuest
+Exec=/home/reustudents/DroneQuest/launch_dronequest.sh
+Icon=/home/reustudents/DroneQuest/icon.jpg
+Terminal=false
+Type=Application
+Categories=Utility;

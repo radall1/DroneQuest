@@ -1,0 +1,27 @@
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In member function ‘void DroneType::takeOff(int, char**)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:97:20: error: ‘nh’ was not declared in this scope
+   97 |         traj_pub = nh.advertise <TrajRef> ( "/reference_state", 1, true );
+      |                    ^~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:97:41: error: expected primary-expression before ‘>’ token
+   97 |         traj_pub = nh.advertise <TrajRef> ( "/reference_state", 1, true );
+      |                                         ^
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:105:62: error: ‘gestureUpdate’ was not declared in this scope
+  105 |         cameraStuff = nh.subscribe( "/gesture/hand_sign", 1, gestureUpdate );
+      |                                                              ^~~~~~~~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:108:9: error: ‘priv_nh’ was not declared in this scope
+  108 |         priv_nh.param( "example_traj_type", traj_type, std::string("hover") );
+      |         ^~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘void gestureUpdate(const ConstPtr&)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:132:11: error: request for member ‘forward’ in ‘drone’, which is of non-class type ‘DroneType()’
+  132 |     drone.forward();
+      |           ^~~~~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:133:5: error: ‘elif’ was not declared in this scope
+  133 |   } elif (msg -> data == "Turn Right"){
+      |     ^~~~
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp: In function ‘int main(int, char**)’:
+/home/reustudents/catkin_ws/src/Freyja/freyja_examples/src/temporal_provider.cpp:146:9: error: request for member ‘takeOff’ in ‘drone’, which is of non-class type ‘DroneType()’
+  146 |   drone.takeOff(argc, argv);
+      |         ^~~~~~~
+make[2]: *** [CMakeFiles/temporal_provider_node.dir/build.make:76: CMakeFiles/temporal_provider_node.dir/src/temporal_provider.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:967: CMakeFiles/temporal_provider_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
