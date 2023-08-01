@@ -16,7 +16,6 @@ relative_assets_path = Path("frames")
 ASSETS_PATH = current_dir / relative_assets_path
 
 
-
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
@@ -91,8 +90,25 @@ class GameApp:
         self.instructions.append(sample[1])
         self.instructions.append(sample[2])
 
+    def draw_circle(self, instruction_number):
+        
+        width = 90      # The circle's radius
+        height = 90
+        instruction_coordinates = {
+            1: (204, 276),
+            2: (291, 365),
+            3: (463, 365),
+            4: (117, 448),
+            5: (378, 448),
+            6: (291, 535),
+            7: (550, 535)
+        }
+        
+        x0, y0 = instruction_coordinates.get(instruction_number, (0,0))
+        self.canvas.create_rectangle(x0, y0, x0 + width, y0 + height, outline="red", width=15)
+
+
     def start_game(self, event):
-        #self.canvas.itemconfigure(self.image, image=self.image_image_2) 
         self.start_time = time.time()
         self.start_status = True
         self.generate_instructions()
@@ -110,6 +126,7 @@ class GameApp:
 
             instruction_number = self.instructions[self.current_instruction_index]
             self.canvas.itemconfigure(self.label_instruction, text=instruction_number)
+            self.draw_circle(instruction_number)
         else:
             end_time = time.time()
             elapsed_time = round(end_time - self.start_time, 2)
