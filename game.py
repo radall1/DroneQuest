@@ -76,6 +76,8 @@ class GameApp:
         self.x = 0
         self.y = 0
 
+        self.rect_id= None
+
         self.root.resizable(True, True)
         self.root.bind('<space>', self.start_game)
         self.root.mainloop()
@@ -91,6 +93,9 @@ class GameApp:
         self.instructions.append(sample[2])
 
     def draw_circle(self, instruction_number):
+
+        if self.rect_id is not None:
+            self.canvas.delete(self.rect_id)
         
         width = 90      # The circle's radius
         height = 90
@@ -105,7 +110,7 @@ class GameApp:
         }
         
         x0, y0 = instruction_coordinates.get(instruction_number, (0,0))
-        self.canvas.create_rectangle(x0, y0, x0 + width, y0 + height, outline="red", width=15)
+        self.rect_id = self.canvas.create_rectangle(x0, y0, x0 + width, y0 + height, outline="red", width=15)
 
 
     def start_game(self, event):
