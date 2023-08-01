@@ -37,7 +37,7 @@ cd /home/reustudents/DroneQuest/
 ```sh
 mv ~/[insert_your_path]/DroneQuest/DQ.desktop ~/Desktop
 ```
-5. Run `catkin_make` or `catkin build` inside the project level directory (`my_awesome_flight_project/` in the example above).
+5. Run `catkin_make` or `catkin build` inside the `DroneQuest` directory.
 ```sh
 cd ~/[insert_your_path]/DroneQuest 
 catkin build
@@ -57,7 +57,7 @@ self.subscriber = rospy.Subscriber("/vicon/GREG/GREG", TransformStamped, self.dr
 3. Freyja is typically used with custom firmware (hosted on the NIMBUS Drive). However, it can be used with new versions of ArduPilot (4.1+). For this to work, you need to (i) use the flight mode `Guided_NoGPS` for Freyja to "take over" and (ii) set ThrustAsThrust field for the parameter `G2_OPTIONS`.
 
 ### Launch
-To launch the game, double check on the `DroneQuest` desktop application that should be located on your Desktop. Alternatively, you could run the `LAUNCH_ME.py` file in your `DroneQuest` directory using the following command:
+To launch the game, double click on the `DroneQuest` desktop application that should be located on your Desktop. Alternatively, you could run the `LAUNCH_ME.py` file in your `DroneQuest` directory using the following command:
 ```sh
 python3 ~/[insert_your_path]/DroneQuest/LAUNCH_ME.py
 ```
