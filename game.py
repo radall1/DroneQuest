@@ -97,6 +97,10 @@ class GameApp:
         if self.rect_id is not None:
             self.canvas.delete(self.rect_id)
         
+        if self.start_status == False and self.rect_id is not None:
+            self.canvas.delete(self.rect_id)
+            return
+
         width = 90      # The circle's radius
         height = 90
         instruction_coordinates = {
@@ -152,12 +156,15 @@ class GameApp:
         self.canvas.itemconfigure(self.image, image=self.image_image_5)
         self.root.bind('<space>', self.start_game)
         self.start_status = False
+        self.draw_circle(2)
 
 
     def show_winner(self):
         self.canvas.itemconfigure(self.timer, text="")
         self.canvas.itemconfigure(self.label_distance, text="")
         self.canvas.itemconfigure(self.label_instruction, text="")
+        self.start_status = False
+        self.draw_circle(2)
 
         min_time = min(self.player_times)
         winner_index = self.player_times.index(min_time)
