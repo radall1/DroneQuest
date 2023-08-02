@@ -7,7 +7,8 @@ DroneQuest is a multiplayer game where players complete the "quest" by **flying 
   <img src="https://raw.githubusercontent.com/radall1/DroneQuest/main/frames/demo2.gif" />
 </p>
 
-![demo](https://raw.githubusercontent.com/radall1/DroneQuest/main/frames/demo.jpg)
+## Architecture
+![demo](https://raw.githubusercontent.com/radall1/DroneQuest/main/frames/architecture.png)
 
 ## Installation 
 Please refer to [the wiki](https://github.com/radall1/DroneQuest/wiki/Installation) for information on how to install and launch DroneQuest. 
